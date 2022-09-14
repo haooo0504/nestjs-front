@@ -1,0 +1,9 @@
+.input {
+    @apply border border-gray-400 placeholder:text-sm w-full rounded-sm px-2 py-1 outline-none focus:ring-1 ring-offset-2 duration-200 focus:border-white;
+  }
+.error {
+    @apply text-xs text-red-700;
+  }
+.button{
+    @apply w-full px-4 py-1.5 mt-5 text-white font-extrabold bg-yellow-500 rounded-md hover:bg-yellow-400 duration-200
+  }
